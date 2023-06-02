@@ -27,6 +27,7 @@ import routes from "../api/routes";
 import { useState } from "react";
 import Loader from "../components/loader/loader";
 import { GreenNotify, RedNotify } from "../helper/helper";
+import LandingPage from "../pages/landingPage/landingPage";
 
 const { Header, Content, Footer, Sider } = Layout;
 const LayoutDashboard = () => {
@@ -137,7 +138,7 @@ const LayoutDashboard = () => {
           }}
         >
           <Routes>
-            <Route path="/" element={<Products />}></Route>
+            <Route path="/" element={<LandingPage />}></Route>
             <Route path="/products" element={<Products />}></Route>
             <Route path="/services" element={<Services />}></Route>
             <Route path="/new-service" element={<AddNewService />}></Route>

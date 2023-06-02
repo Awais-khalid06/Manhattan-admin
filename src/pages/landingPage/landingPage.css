@@ -1,0 +1,12 @@
+.dynamic-card-main-container {
+  margin: 2rem;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.dynamic-card {
+  width: 200rem;
+  height: 50rem;
+}
